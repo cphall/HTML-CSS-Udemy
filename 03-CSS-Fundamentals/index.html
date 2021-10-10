@@ -9,7 +9,7 @@
   </head>
   <body>
     <!--h1 thru h6-->
-    <header>
+    <header class="main-header">
       <h1>📘 The Code Magazine</h1>
 
       <nav> <!--nav groups nav links-->
@@ -29,7 +29,7 @@
           width= "50"
           height= "50"
         />
-        <p>Posted by <strong>Laura Jones</strong> on Monday, June 21st 2027</p>
+        <p id="author">Posted by <strong>Laura Jones</strong> on Monday, June 21st 2027</p>
       
         <img 
           src="img/post-img.jpg" 
@@ -91,27 +91,27 @@
 
     <aside> <!--Secondary info that compliments the article information.-->
       <h4>Related Posts</h4>
-      <ul>
+      <ul class="related-posts">
         <li>
           <img src="img/related-1.jpg" alt="Man using a computer." width="75" height="75">
           <a href="#">How to Learn Web Development</a>
-          <p>By Christian Hall</p>
+          <p class="related-author">By Christian Hall</p>
         </li>
         <li>
           <img src="img/related-2.jpg" alt="Lightning strike." width="75" height="75">
           <a href="#">The Unknown Powers of CSS</a>
-          <p>By Jim Dillon</p>
+          <p class="related-author">By Jim Dillon</p>
         </li>
         <li>
           <img src="img/related-3.jpg" alt="Computer screen with code on it." width="75" height="75">
           <a href="#">Why Javascript is Awesome</a>
-          <p>By Matilda</p>
+          <p class="related-author">By Matilda</p>
         </li>
       </ul>
     </aside>
     <!--&copy is an HTML entity-->
     <footer>
-      <p>Copyright &copy; 2027 by The Code Magazine.</p>
+      <p id="copyright">Copyright &copy; 2027 by The Code Magazine.</p>
     </footer>
   </body>
 </html>
