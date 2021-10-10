@@ -78,3 +78,34 @@ aside {
   border-top: 5px solid #1098ad;
   border-bottom: 5px solid #1098ad;
 }
+
+/*pseudoclass example*/
+li:first-child {
+  font-weight: bold;
+}
+
+li:last-child {
+  font-style: italic;
+}
+
+/*Styling Links - a element that has an href attribute*/
+a:link {
+  color: #1098ad;
+  text-decoration: none;
+}
+
+a:visited {
+  color: #1098ad;
+}
+
+a:hover {
+  color: orangered;
+  font-weight: bold;
+  text-decoration: underline orangered;
+}
+
+a:active {
+  color: #444;
+  font-style: italic;
+  text-decoration: none;
+}
